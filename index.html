@@ -4,57 +4,112 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
+    <title>CSE 405</title>
 
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 </head>
-
-
 <body>
+
+        <header id="showcase">
+                <h1>Website under construction</h1>
+                <p>Please scroll down to see more</p>
+                <!-- <a href="#" class="button">Read More</a> -->
+          </header>
+          
+          
+<div class="accordion" id="accordionExample">
+    <button class="btn btn-link collapsed multi-collapse" type="button" data-toggle="collapse" data-target="multi-collapse" aria-expanded="True" aria-controls="collapseOne collapseTwo collapseThree collapseFour">
+        Collapse All
+      </button>
+
+
+  <div class="card">
+    <div class="card-header multi-collapse" id="headingOne">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed multi-collapse" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="True" aria-controls="collapseOne">
+          Week 1
+        </button>
+      </h5>
+    </div>
+
+    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+      <div class="card-body">
+        More info coming soon...
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header multi-collapse" id="headingTwo">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Week 2
+        </button>
+      </h5>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+      <div class="card-body">
+       More Info coming soon...
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header multi-collapse" id="headingThree">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Week 3
+        </button>
+      </h5>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+      <div class="card-body">
+        <div class="notes">
+          <h4>Notes</h4>
+
+          <ul>
+            <li>It seems that everything that we needs in order to create Websites is already out there on the internet. We need to find what just fits in the project that we are working on. Proffesor Turner created a login page from scratch, however with a simple Google search I am sure I could have found something pre-made. I would just have to twick it in order to fit into the template of what I am working on.</li>
+          </ul>
+        </div>
+        <div class="research">
+          <h4>Research</h4>
+          <ul>
+            <li>I am learning AJAX and BOOTSTRAP. AJAX is not really something that has taken me time to learn. It is basically a way for developers to communicate, just with like plain English but it has it limitaions and a really specific format that I should follow. </li>
+            <li>These are the websites and videos that I used in order to learn more about AJAX: <a href="https://skillcrush.com/2018/04/26/what-is-ajax/">AJAX, </a>, <a href="https://www.w3schools.com/whatis/whatis_ajax.asp">AJAX, </a>, <a href="https://www.youtube.com/watch?v=82hnvUYY6QA">Video.</a> 
+              It is used to retrive and send data from a server at the same time without interfering with the Website's Template.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+  <div class="card">
+    <div class="card-header multi-collapse" id="headingFour">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+          Week 4
+        </button>
+      </h5>
+    </div>
+    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+      <div class="card-body">
+       <div class="notes">
+         <h4>Notes</h4>
+         We cannot send to redirects after we have finished submiting a form. The browser will not know what to do. At the end of the JS we should have a module.exports = router. A module is a small portion of code that is used or rather say reused in order to make the life of the programmer easier. They export values rather than types. They usually carry functions, constructors or objects.  
+       </div>
+       <div class="research">
+         <h4>Research</h4>
+         I have been learning more about BOOTSTRAP. I can see that that it is open source. Allowing for programmers all around the globe to access it and use it in their projects to make beutiful websites, faster and efficiently. According to the official website, "Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains CSS- and JavaScript-based design templates for typography, forms, buttons, navigation and other interface components". BOOTSTRAP is does not require a lot of brain, everything is already pre-built, I just have to learn how to use it. It is important to state that it is not coding.
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
     
-    <table class="table table-bordered">
-        <thead>
-          <tr>
-            <th scope="col">Week</th>
-            <th scope="col">Notes</th>
-            <th scope="col">Research</th>
-            <th scope="col">Homework</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th scope="row">1</th>
-            <td>Empty</td>
-            <td>Empty</td>
-            <td>Empty</td>
-          </tr>
-          <tr>
-            <th scope="row">2</th>
-            <td>Needs to upate</td>>
-            <td>Needs to update</td>
-            <td>Needs to update</td>
-          </tr>
-          <tr>
-            <th scope="row">3</th>
-            <td>It seems that everything that we needs in order to create Websites is already out there on the internet. We need to find what just fits in the project that we are working on. Proffesor Turner created a login page from scratch, however with a simple Google search I am sure I could have found something pre-made. I would just have to twick it in order to fit into the template of what I am working on. </td>>
-            <td>I am learning AJAX and BOOTSTRAP. AJAX is not really something that has taken me time to learn. It is basically a way for developers to communicate, just with like plain English but it has it limitaions and a really specific format that I should follow.
-                <br>
-                These are the websites and videos that I used in order to learn more about AJAX:
-                <a href="https://skillcrush.com/2018/04/26/what-is-ajax/">AJAX, </a>
-                <a href="https://www.w3schools.com/whatis/whatis_ajax.asp">AJAX, </a>
-                <a href="https://www.youtube.com/watch?v=82hnvUYY6QA">Video</a>
-                <br>
-                It is used to retrive and send data from a server at the same time without interfering with the Website's Template.
-            </td>
-            <td>Needs to update</td>
-          </tr>
-        </tbody>
-      </table>
-
-
 </body>
 </html>
