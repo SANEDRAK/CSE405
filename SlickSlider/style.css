@@ -1,0 +1,22 @@
+.carousel-inner {
+  position: relative;
+  width:100%;
+  overflow:hidden;
+}
+
+
+.carousel-item {
+  height:32rem;
+  background:#333;
+  align-items: center;
+  width:100%;
+}
+.carousel-item > img {
+  position:absolute;
+  top:0;
+  left:0;
+  object-fit: contain;
+}
+.item img {
+  width:100%;
+}
